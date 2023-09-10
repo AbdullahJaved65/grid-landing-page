@@ -153,8 +153,32 @@ body {
   padding: 1% 8%;
 }
 
-
 .meal-card li {
   font-size: larger;
   line-height: 1.5;
+}
+
+.cfa-section {
+  background-image: url(/resources/images/market-carousel-lunch-2048x634.jpg);
+  background-size: cover;
+  display: grid;
+  margin-top: 3%;
+  padding: 6% 12.5%;
+}
+
+.cfa-section h1 {
+    margin-bottom: 1%;
+}
+
+.cfa-btn {
+  background-color: #ffe01b;
+  border-radius: 5rem;
+  border: none;
+  color: #000000;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-left: 0%;
+  height: 2.8rem;
+  width: 17rem;
 }
