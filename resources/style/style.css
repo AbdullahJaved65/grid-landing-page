@@ -50,9 +50,10 @@ body {
 }
 
 .form-section input {
+  height: 1rem;
   margin: 3% 0;
   padding: 2% 5%;
-  width: 17rem;
+  width: 20rem;
 }
 
 .form-section h3 {
@@ -68,14 +69,28 @@ body {
 }
 
 .submit-btn {
-  background-color: #e1c012;
+  background-color: #ffe01b;
   border-radius: 5rem;
   border: none;
   color: #000000;
   font-size: larger;
   font-weight: bold;
   margin-top: 4%;
-  margin-left: 7%;
+  margin-left: 9%;
   height: 2.8rem;
   width: 17rem;
+}
+
+.cards-section {
+  align-items: end;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-gap: 2%;
+  justify-items: stretch;
+  padding: 4% 9%;
+  text-align: center;
+}
+
+.image-card img {
+  width: 35%;
 }
