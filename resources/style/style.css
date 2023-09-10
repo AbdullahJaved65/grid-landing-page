@@ -1,5 +1,6 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0%;
 }
 
 .nav-grid {
@@ -23,12 +24,58 @@ body {
 }
 
 .nav-links ul li a {
-    color: #000000;
-    font-size: larger;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none;
+  color: #000000;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
 }
 
 .nav-links ul li a:active {
-    text-decoration: underline 0.25rem black;
+  text-decoration: underline 0.25rem black;
+}
+
+.hero-section {
+  background-image: url("/resources/images/main-1680x520@2x.jpg");
+  background-size: cover;
+  /* background-color: aqua; */
+  display: grid;
+  margin: 0%;
+  padding: 2% 0;
+  /* height: 100%; */
+}
+
+.form-section {
+  display: grid;
+  justify-items: center;
+}
+
+.form-section input {
+  margin: 3% 0;
+  padding: 2% 5%;
+  width: 17rem;
+}
+
+.form-section h3 {
+  font-size: xx-large;
+  margin-bottom: 1%;
+}
+
+.form-section p {
+  font-size: larger;
+  padding: 0% 10%;
+  margin-top: 1%;
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: #e1c012;
+  border-radius: 5rem;
+  border: none;
+  color: #000000;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-left: 7%;
+  height: 2.8rem;
+  width: 17rem;
 }
