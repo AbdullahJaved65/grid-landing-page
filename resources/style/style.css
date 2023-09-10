@@ -130,3 +130,31 @@ body {
   height: 2.8rem;
   width: 17rem;
 }
+
+.meal-kit {
+  /* align-items: start; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 14%;
+  justify-items: stretch;
+  justify-content: space-evenly;
+  /* line-height: 1; */
+  margin-top: 0%;
+  padding: 0 45%;
+  /* width: 9rem; */
+  /* text-align: center; */
+}
+
+.meal-card {
+  background-color: #f4f2ed;
+}
+
+.meal-card h1 {
+  padding: 1% 8%;
+}
+
+
+.meal-card li {
+  font-size: larger;
+  line-height: 1.5;
+}
