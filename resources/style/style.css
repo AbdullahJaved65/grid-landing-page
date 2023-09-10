@@ -84,7 +84,7 @@ body {
 .cards-section {
   align-items: end;
   display: grid;
-  grid-template-columns: repeat(3, 33.33%);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2%;
   justify-items: stretch;
   padding: 4% 9%;
@@ -93,4 +93,40 @@ body {
 
 .image-card img {
   width: 35%;
+}
+
+.menu-headings {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0.5%;
+}
+
+.menu-headings h1 {
+  font-size: xx-large;
+}
+
+.menu-section {
+  align-items: start;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6%;
+  justify-items: stretch;
+  justify-content: space-evenly;
+  /* line-height: 1; */
+  margin-top: 0%;
+  padding: 0 45%;
+  /* text-align: center; */
+}
+
+.order-now-btn {
+  background-color: #ffe01b;
+  border-radius: 5rem;
+  border: none;
+  color: #000000;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-left: 40%;
+  height: 2.8rem;
+  width: 17rem;
 }
