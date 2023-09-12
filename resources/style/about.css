@@ -1,0 +1,274 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0%;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 1.5% 9%;
+}
+
+.logo {
+  align-self: baseline;
+  width: 27%;
+}
+
+.nav-links {
+  display: grid;
+}
+
+.nav-links ul li {
+  display: inline-grid;
+  padding: 0 4% 1.5% 4%;
+}
+
+.nav-links ul li a {
+  color: #000000;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.nav-links ul li a:active {
+  text-decoration: underline 0.25rem black;
+}
+
+.cards-section {
+  align-items: end;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2%;
+  justify-items: stretch;
+  padding: 4% 9%;
+  text-align: center;
+}
+
+.image-card img {
+  width: 35%;
+}
+
+.image-card ul li {
+  list-style: none;
+}
+
+.menu-headings {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0.5%;
+  padding: 0 11%;
+}
+
+.menu-headings h1 {
+  font-size: xx-large;
+}
+
+.reviews-section {
+  /* align-items: start; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10%;
+  justify-items: stretch;
+  justify-content: space-evenly;
+  /* line-height: 1; */
+  margin-top: 0%;
+  padding: 4% 6% 5% 6%;
+  /* width: 9rem; */
+  /* text-align: center; */
+}
+
+.customer-services h1 {
+  margin-left: 4%;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+@media only screen and (min-width: 915px) and (max-width: 1200px) {
+  .nav-grid {
+    grid-template-columns: 100%; /* Stack the columns on smaller screens */
+    padding: 1.5% 5%; /* Adjust padding for smaller screens */
+  }
+  .hero-section {
+    background-position: center; /* Center background image */
+  }
+  .form-section {
+    padding: 0 10%; /* Adjust padding for smaller screens */
+  }
+  .cards-section {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Display 2 columns on smaller screens */
+  }
+  .menu-section {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Display 2 columns on smaller screens */
+    padding: 0 10%; /* Adjust padding for smaller screens */
+  }
+  .meal-kit {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Display 2 columns on smaller screens */
+    padding: 0 10%; /* Adjust padding for smaller screens */
+  }
+  .cfa-section {
+    background-position: center; /* Center background image */
+    padding: 6% 5%; /* Adjust padding for smaller screens */
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+  .nav-grid {
+    grid-template-columns: 100%;
+    justify-self: stretch; /* Stack the columns on smaller screens */
+    padding: 1.5% 5%; /* Adjust padding for smaller screens */
+  }
+  .logo {
+    justify-self: center;
+  }
+  .nav-links {
+    justify-self: stretch;
+  }
+  .hero-section {
+    background-position: center; /* Center background image */
+  }
+  .form-section {
+    padding: 5% 15%; /* Adjust padding for smaller screens */
+  }
+  .cards-section {
+    grid-template-columns: 1fr; /* Display 2 columns on smaller screens */
+  }
+  .menu-section {
+    grid-template-columns: 1fr; /* Display 2 columns on smaller screens */
+    padding: 0 11%; /* Adjust padding for smaller screens */
+  }
+  .order-now-btn {
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+  .menu-headings {
+    margin-top: 15%;
+    padding: 0% 8%;
+  }
+  .meal-kit {
+    grid-template-columns: 1fr; /* Display 2 columns on smaller screens */
+    padding: 5% 0%;
+    text-align: center; /* Adjust padding for smaller screens */
+  }
+  .meal-kit ul li {
+    list-style: none;
+  }
+  .cfa-section {
+    background-position: center;
+    height: 16rem;
+    margin-top: 30%;
+    padding: 10% 5%; /* Adjust padding for smaller screens */
+    text-align: center;
+  }
+  .cfa-btn {
+    margin-left: 30%;
+  }
+  .customer-services {
+    margin-top: 12%;
+    text-align: center;
+  }
+
+  .reviews-section {
+    grid-template-columns: 1fr;
+    margin-bottom: 10%; /* Display 2 columns on smaller screens */
+    padding: 5% 10%;
+    text-align: center;
+  }
+  .footer-section {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .nav-grid {
+    grid-template-columns: 100%; /* Stack the columns on smaller screens */
+    padding: 1.5% 5%;
+  }
+  .logo {
+    justify-self: center;
+  }
+  .nav-links {
+    justify-self: stretch;
+  }
+  .hero-section {
+    background-position: center; /* Center background image */
+  }
+  .form-section {
+    padding: 5% 10%; /* Adjust padding for smaller screens */
+  }
+  .form-section input {
+    width: 15rem;
+  }
+  .submit-btn {
+    margin-left: 0%;
+  }
+  .cards-section {
+    grid-template-columns: 1fr; /* Display 2 columns on smaller screens */
+  }
+  .menu-section {
+    grid-template-columns: 1fr; /* Display 2 columns on smaller screens */
+    padding: 0 11%;
+    /* width: 375px; */
+  }
+  .menu-card {
+    width: 100%;
+  }
+  .menu-card h6,
+  h4,
+  p {
+    padding-left: 5%;
+  }
+
+  .menu-card small {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .order-now-btn {
+    margin-top: 50%;
+    margin-left: 17%;
+  }
+  .menu-headings {
+    margin-top: 15%;
+    padding: 0% 8%;
+  }
+  .meal-kit {
+    grid-template-columns: 1fr; /* Display 2 columns on smaller screens */
+    padding: 5% 0%;
+    text-align: center; /* Adjust padding for smaller screens */
+  }
+  .meal-kit ul li {
+    list-style: none;
+  }
+  .cfa-section {
+    background-position: center; /* Center background image */
+    margin-top: 30%;
+    padding: 6% 5%; /* Adjust padding for smaller screens */
+    text-align: center;
+  }
+  .cfa-btn {
+    margin-left: 13%;
+  }
+  .customer-services {
+    margin-top: 12%;
+    text-align: center;
+  }
+  .reviews-section {
+    grid-template-columns: 1fr;
+    margin-bottom: 30%; /* Display 2 columns on smaller screens */
+    padding: 5% 10%;
+    text-align: center;
+  }
+  .footer-section {
+    margin-top: 10%;
+  }
+}
