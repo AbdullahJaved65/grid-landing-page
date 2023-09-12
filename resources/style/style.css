@@ -36,7 +36,7 @@ body {
 
 .hero-section {
   background: rgba(57, 57, 57, 0.5);
-  background-image: url("/resources/images/main-1680x520@2x.jpg");
+  background-image: url("resources/images/main-1680x520@2x.jpg");
   background-size: cover;
   background-blend-mode: multiply;
   color: #f4f2ed;
@@ -168,7 +168,7 @@ body {
 
 .cfa-section {
   background: rgba(57, 57, 57, 0.5);
-  background-image: url(/resources/images/market-carousel-lunch-2048x634.jpg);
+  background-image: url(resources/images/market-carousel-lunch-2048x634.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   color: #f4f2ed;
