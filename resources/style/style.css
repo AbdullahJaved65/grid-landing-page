@@ -217,15 +217,10 @@ body {
   /* text-align: center; */
 }
 
-.customer-services h1 {
-  margin-left: 4%;
-}
-
 .footer-section {
   text-align: center;
 }
 
-/* Pricing Page */
 
 @media only screen and (min-width: 915px) and (max-width: 1200px) {
   .nav-grid {
