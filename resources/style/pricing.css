@@ -174,7 +174,7 @@ body {
   }
   .reviews-section {
     grid-template-columns: 1fr;
-    margin-bottom: 8%; /* Display 2 columns on smaller screens */
+    margin-bottom: 10%; /* Display 2 columns on smaller screens */
     padding: 5% 10%;
     text-align: center;
   }
@@ -258,7 +258,7 @@ body {
   }
   .reviews-section {
     grid-template-columns: 1fr;
-    margin-bottom: 15%; /* Display 2 columns on smaller screens */
+    margin-bottom: 30%; /* Display 2 columns on smaller screens */
     padding: 5% 10%;
     text-align: center;
   }
